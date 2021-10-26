@@ -27,5 +27,6 @@
 <body>
 <div class="wrapo">
     <h1>Мастер</h1>
+    <a href="javascript:window.history.back()">Иди отсюда</a>
 </div>
 </body>
