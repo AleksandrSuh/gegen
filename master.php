@@ -27,6 +27,6 @@
 <body>
 <div class="wrapo">
     <h1>Мастер</h1>
-    <a href="javascript:window.history.back()">Иди отсюда</a>
+    <a href="javascript:window.history.back()">Иди отсюда</a> - это был не четвёртый комм, каждый раз забываешь текст вматюрить!
 </div>
 </body>
