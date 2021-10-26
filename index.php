@@ -27,11 +27,19 @@
             width: 1000px;
             margin: 20px auto;
         }
+        p {
+            margin: 0;
+            padding: 3px;
+        }
     </style>
 </head>
 <body>
 <div class="wrapo">
     <h1>Рабочие трудности</h1>
-    <?='Почему на удалёнке не робите?'?>
+    <?='Почему на удалёнке не робите?'?><br/><br/>
+    <? for($i=1;$i<40;$i++):?>
+        <p>Всё, что вы видите <?=$i * 2 + 1;?></p>
+    <? endfor;?>
+    <a href="master.php">Идите к мастеру</a>
 </div>
 </body>
