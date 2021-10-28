@@ -27,5 +27,6 @@
 <body>
 <div class="wrapo">
     <h1>Мастер</h1>
+    <a href="file.php">Идите не обратно, а к филе</a>
 </div>
 </body>
