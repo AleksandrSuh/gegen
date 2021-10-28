@@ -9,4 +9,6 @@
  *
  */
 ?>
-нет фили нет фили нет фили нет
+нет фили нет фили нет фили нет<br>
+<?
+echo PHP_SVN_AUTH_PARAM_IGNORE_SSL_VERIFY_ERRORS;

@@ -12,6 +12,7 @@
  * четвёртый коммит (на 3й пуш через шторм не получился)
  *
  */
+$arPost = $_REQUEST;
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -40,6 +41,11 @@
     <? for($i=1;$i<20;$i++):?>
         <p>Всё, что вы видите <?=$i * 3 + $i?></p>
     <? endfor;?>
+    <?
+    $strMessage = 'Клиент '.$arPost['NAME'].' телефон '.$arPost['PHONE']
+    .' планирует заложить: "'.$arPost['ITEM'].'" на сумму: "'.$arPost['SUMM'].'"';
+    ?>
     <a href="master.php">Идите к мастеру</a>
+    <?=$strMessage?>
 </div>
 </body>
